@@ -9,7 +9,7 @@ Welcome to my GitHub profile!
 - 👀 I’m interested in full-stack web development, AI, DevOps and Problem Solving in Java.
 - 🌱 I’m currently learning AI(RAG), cloud deployment (AWS, Vercel), and DevOps practices.
 - 💞️ I’m looking to collaborate on innovative tech projects, especially in the domains of Web Development, AI, DevOps and Automation.
-- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/sabeshragav) | [Gmail](mailto:sabeshragav@gmail.com) | [Portfolio](sabeshragav.vercel.app)
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/sabeshragav) | [Gmail](mailto:sabeshragav@gmail.com) | [Portfolio](https://sabeshragav.vercel.app)
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I love turning complex challenges into elegant solutions—and I occasionally debug in my sleep!
 
