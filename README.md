@@ -44,15 +44,6 @@ Welcome to my GitHub profile!
 
 ---
 
-## 🛠️ Projects
-
-- 🔗 [MedusaJS + Directus Integration](https://github.com/Sabeshragav/medusa-directus-sync): Syncing product data between headless CMS (Directus) and MedusaJS store backend
-- 🔗 [Full-stack E-Commerce Store](https://github.com/Sabeshragav/fullstack-ecommerce): Built with React, Vite, Node.js, Express, PostgreSQL and deployed on Vercel
-- 🔗 [Real-time Chat App](https://github.com/Sabeshragav/realtime-chat-app): Spring Boot + WebSocket backend, Next.js frontend
-- 🔗 [Gmail Data Connector](https://github.com/Sabeshragav/gmail-dataconnector): Ingest Gmail data into Node.js app using Mendable’s AI connector
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
