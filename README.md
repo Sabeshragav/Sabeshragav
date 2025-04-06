@@ -1,4 +1,4 @@
-# 👋 Hi there, I'm Sabeshragav
+# 👋 Hi there, I'm Sabeshragav G K
 
 Welcome to my GitHub profile!
 
