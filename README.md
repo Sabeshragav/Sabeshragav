@@ -9,7 +9,7 @@ Welcome to my GitHub profile!
 - 👀 I’m interested in full-stack development, open-source projects, and exploring emerging technologies like Web3 and AI.
 - 🌱 I’m currently learning advanced backend architectures, cloud deployment (AWS, Vercel), and DevOps practices.
 - 💞️ I’m looking to collaborate on innovative tech projects, especially in the domains of web development, blockchain, and automation.
-- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/sabeshragav) | sabeshragav[at]gmail[dot]com
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/sabeshragav) | [Gmail](mailto:sabeshragav@gmail.com)
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I love turning complex challenges into elegant solutions—and I occasionally debug in my sleep!
 
