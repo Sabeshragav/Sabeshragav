@@ -15,6 +15,16 @@ Welcome to my GitHub profile!
 
 ---
 
+## ✅ Highlights & Badges
+
+- 🧑‍💻 ![Profile Views](https://komarev.com/ghpvc/?username=Sabeshragav&color=blue)
+- 🌟 ![GitHub Followers](https://img.shields.io/github/followers/Sabeshragav?label=Follow&style=social)
+- 📚 ![Repos Badge](https://img.shields.io/badge/Public%20Repos-Count-blue?style=flat&logo=github)
+- 🏆 GitHub Trophies  
+  <img src="https://github-profile-trophy.vercel.app/?username=Sabeshragav&theme=radical&margin-w=10&no-bg=true" />
+
+---
+
 ## 🧠 Tech Stack
 
 ### Frontend
