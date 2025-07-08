@@ -2,7 +2,7 @@ name: Meendum meendum ah
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Every 5 minutes for testing
+    - cron: "*/5 * * * *" # Every 5 minutes for testing
   workflow_dispatch:
 
 jobs:
@@ -15,8 +15,13 @@ jobs:
 
       - name: Update README
         run: |
-          echo "Last updated on $(TZ='Asia/Kolkata' date '+%Y-%m-%d %H:%M:%S %Z')" > last-updated.txt
-          cat README.md last-updated.txt > temp.md
+          # Remove previous timestamp line (if any)
+          grep -v '^Last updated on ' README.md > temp.md || true
+
+          # Add new timestamp
+          echo "Last updated on $(TZ='Asia/Kolkata' date '+%Y-%m-%d %H:%M:%S %Z')" >> temp.md
+
+          # Overwrite the original README
           mv temp.md README.md
 
       - name: Commit and Push changes
