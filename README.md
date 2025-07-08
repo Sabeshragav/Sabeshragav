@@ -1,6 +1,5 @@
 <h1>👋 Hi there, I'm <strong>Sabeshragav G K</strong></h1>
 
-<img src="https://visitor-badge.laobi.icu/badge?page_id=Sabeshragav.Sabeshragav&style=flat-square" alt="Visitor Count" />
 
 Welcome to my GitHub profile!
 
@@ -58,6 +57,8 @@ Welcome to my GitHub profile!
 ## ✨ Let's Connect!
 
 Feel free to connect or collaborate—always happy to meet fellow devs!
+
+<img src="https://visitor-badge.laobi.icu/badge?page_id=Sabeshragav.Sabeshragav&style=flat-square" alt="Visitor Count" />
 
 <!---
 Sabeshragav/Sabeshragav is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
