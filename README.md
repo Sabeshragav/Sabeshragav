@@ -1,4 +1,6 @@
-# 👋 Hi there, I'm Sabeshragav G K
+<h1>👋 Hi there, I'm <strong>Sabeshragav G K</strong></h1>
+
+<img src="https://visitor-badge.laobi.icu/badge?page_id=Sabeshragav.Sabeshragav&style=flat-square" alt="Visitor Count" />
 
 Welcome to my GitHub profile!
 
