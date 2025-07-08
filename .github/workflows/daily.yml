@@ -1,8 +1,8 @@
-name: Meendum Meendum ah
+name: Meendum meendum ah
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Runs every 5 minutes (for testing)
+    - cron: '*/5 * * * *' # Every 5 minutes for testing
   workflow_dispatch:
 
 jobs:
@@ -13,11 +13,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Update README with timestamp
+      - name: Update README
         run: |
-          echo "<!-- Updated on: $(TZ='Asia/Kolkata' date '+%Y-%m-%d %H:%M:%S %Z') -->" >> README.md
+          echo "Last updated on $(TZ='Asia/Kolkata' date '+%Y-%m-%d %H:%M:%S %Z')" > last-updated.txt
+          cat README.md last-updated.txt > temp.md
+          mv temp.md README.md
 
-      - name: Commit and push changes
+      - name: Commit and Push changes
         env:
           TOKEN: ${{ secrets.GH_PAT }}
         run: |
