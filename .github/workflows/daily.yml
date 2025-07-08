@@ -1,0 +1,31 @@
+name: Daily README Refresh
+
+on:
+  schedule:
+    - cron: '30 4 * * *'  # 10:00 AM IST = 4:30 AM UTC
+  workflow_dispatch:       # Also allow manual runs
+
+jobs:
+  refresh-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # (Optional) Set up Node.js, Python, or any env if needed
+      # - uses: actions/setup-node@v4
+      #   with:
+      #     node-version: '18'
+
+      - name: Run script to update README.md
+        run: |
+          # Replace the above with your actual logic if needed
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "New Day, New Beginning!"
+          git push
