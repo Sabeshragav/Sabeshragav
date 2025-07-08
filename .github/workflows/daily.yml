@@ -2,7 +2,8 @@ name: Daily README Refresh
 
 on:
   schedule:
-    - cron: '30 4 * * *'  # 10:00 AM IST = 4:30 AM UTC
+    # - cron: '30 4 * * *'  # 10:00 AM IST = 4:30 AM UTC
+    - cron: '*/5 * * * *'
   workflow_dispatch:       # Also allow manual runs
 
 jobs:
@@ -18,9 +19,11 @@ jobs:
       #   with:
       #     node-version: '18'
 
-      - name: Run script to update README.md
+      - name: Update README with timestamp
         run: |
-          # Replace the above with your actual logic if needed
+          echo "Last updated on $(TZ='Asia/Kolkata' date '+%Y-%m-%d %H:%M:%S %Z')" > last-updated.txt
+          cat README.md last-updated.txt > temp.md
+          mv temp.md README.md
 
       - name: Commit and push changes
         run: |
